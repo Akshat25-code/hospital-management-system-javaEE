@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hospital-management-jee:war exploded">
+    <output-path>$PROJECT_DIR$/WebContent/WEB-INF/classes</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hospital-management-jee" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jakarta.servlet.jsp.jstl-api-2.0.0.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="jakarta.servlet.jsp.jstl-2.0.0.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="mysql-connector-j-8.0.33.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="javax.annotation.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="javax.jms.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="javax.persistence.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="javax.resource.jar" module-name="hospital-management-jee" />
+          <element id="library" level="module" name="javax.transaction.jar" module-name="hospital-management-jee" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="hospital-management-jee/web/Web" />
+    </root>
+  </artifact>
+</component>
