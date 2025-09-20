@@ -1,20 +1,20 @@
-# 🏥 Hospital Management System
+# Hospital Management System
 
 A comprehensive web-based Hospital Management System built with Java EE (Jakarta EE), MySQL, and modern web technologies.
 
-## 📋 Project Overview
+## Project Overview
 
 This Hospital Management System provides a complete digital solution for hospital operations including patient management, appointment scheduling, prescription handling, and administrative tasks with role-based access control.
 
-## ✨ Features
+## Features
 
-### 👥 Multi-Role System
+### Multi-Role System
 - **Admin**: Complete system management and user administration
 - **Doctor**: Patient management, appointments, prescription creation
 - **Patient**: Book appointments, view medical records, access e-prescriptions
 - **Assistant**: Administrative support and patient queue management
 
-### 🏥 Core Functionality
+### Core Functionality
 - **Patient Management**: Complete patient records with medical history
 - **Appointment System**: Book, edit, cancel appointments with conflict detection
 - **E-Prescription System**: Digital prescription creation and management
@@ -22,13 +22,13 @@ This Hospital Management System provides a complete digital solution for hospita
 - **Medical Records**: Comprehensive patient medical history
 - **Dashboard**: Role-based dashboards for different user types
 
-### 🔒 Security Features
+### Security Features
 - User authentication and authorization with BCrypt password hashing
 - Role-based access control with session management
 - CSRF protection and input validation
 - Account lockout protection against brute force attacks
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Backend**: Java EE (Jakarta EE) with Servlets and JSP
 - **Database**: MySQL 8.0+
@@ -37,7 +37,7 @@ This Hospital Management System provides a complete digital solution for hospita
 - **Libraries**: JSTL, MySQL Connector, Jakarta Servlet API
 - **Build Tool**: IntelliJ IDEA with Maven/Gradle support
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 hospital-management-jee/
@@ -76,7 +76,7 @@ hospital-management-jee/
 └── database_schema.sql        # Database Schema
 ```
 
-## 🚀 Setup Instructions for IntelliJ IDEA
+## Setup Instructions for IntelliJ IDEA
 
 ### Prerequisites
 - Java 11 or higher
@@ -121,7 +121,7 @@ hospital-management-jee/
    - Run the Tomcat configuration
    - Access: `http://localhost:8080/hospital-management-jee/`
 
-## 👤 Default Login Accounts
+## Default Login Accounts
 
 | Role | Username | Password |
 |------|----------|----------|
@@ -130,7 +130,7 @@ hospital-management-jee/
 | Patient | patient1 | patient123 |
 | Assistant | assistant1 | assistant123 |
 
-## 🗄️ Database Schema
+## Database Schema
 
 Core database tables:
 - `users` - User authentication and roles
@@ -142,18 +142,18 @@ Core database tables:
 - `medicines` - Medicine inventory
 - `medical_records` - Patient medical history
 
-## 🔧 Development Features
+## Development Features
 
-- ✅ Complete CRUD operations for all entities
-- ✅ Appointment conflict detection and validation
-- ✅ Role-based dashboard customization
-- ✅ E-prescription system with patient access
-- ✅ Session management and security
-- ✅ Responsive design with Bootstrap 5
-- ✅ Input validation and error handling
-- ✅ Multi-role user management system
+-  Complete CRUD operations for all entities
+-  Appointment conflict detection and validation
+-  Role-based dashboard customization
+-  E-prescription system with patient access
+-  Session management and security
+-  Responsive design with Bootstrap 5
+-  Input validation and error handling
+-  Multi-role user management system
 
-## 🚨 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -174,10 +174,10 @@ Core database tables:
 - Ensure Web Facet is properly configured
 - Check for port conflicts (default: 8080)
 
-## 📄 License
+## License
 
 This project is developed for educational and demonstration purposes as a comprehensive Java EE web application.
 
 ---
 
-**🏥 Hospital Management System - Modern Healthcare Management Solution**
+** Hospital Management System - Modern Healthcare Management Solution**
